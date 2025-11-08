@@ -1,29 +1,35 @@
-# 💻✨ Pasta de Códigos JavaScript
+# 💻✨ JavaScript Code Folder
 
-> ⚡ **Esta é minha pasta de códigos de JavaScript.**  
-> Apenas uso como **portfólio** para **estudo de JS**.  
-
----
-
-## 📚 Sobre
-Aqui estão meus pequenos projetos, desafios e testes feitos enquanto aprendo **JavaScript**.  
-Cada arquivo representa uma parte da minha evolução como programador 💪  
+> ⚡ **This is my JavaScript code folder.**  
+> I use it only as a **portfolio** for my **JS studies**.  
 
 ---
 
-## 🧠 O que tem por aqui:
-- 🧩 Desafios simples e intermediários  
-- 🔢 Códigos de lógica e prática com funções  
-- 🧮 Experimentos com condicionais, loops e arrays  
-- 💬 Testes no console e scripts de aprendizado  
+## 📚 About
+Here you’ll find my small projects, challenges, and experiments made while learning **JavaScript**.  
+Each file represents a step in my journey as a developer 💪  
 
 ---
 
-## 🚀 Objetivo
-Aprender, errar, testar e melhorar um pouco a cada código.  
-Nada profissional — apenas o **início da jornada!**
+## 🧠 What’s Inside:
+- 🧩 Simple and intermediate coding challenges  
+- 🔢 Practice with logic and functions  
+- 🧮 Experiments using conditionals, loops, and arrays  
+- 💬 Console tests and learning scripts  
 
 ---
 
-### ✨ Obrigado por visitar!
-> “O código é o que transforma ideias em realidade.” 💡
+## 🚀 Goal
+To learn, make mistakes, test, and improve — one line of code at a time.  
+Nothing professional — just the **beginning of the journey!**
+
+---
+
+### ✨ Thanks for visiting!
+> “Code is what turns ideas into reality.” 💡
+
+---
+
+### 🇧🇷 Pequena tradução
+> 💬 Esta é minha pasta de códigos JavaScript.  
+> Uso apenas como **portfólio de estudos** e prática com **JS**.
