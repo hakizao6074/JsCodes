@@ -1,31 +1,73 @@
-const fs = require('fs');
-const path = require('path');
+// Importa o módulo 'fs' (File System), que permite ler e escrever arquivos
+const sistemaDeArquivos = require('fs');
 
-// Caminho raiz do workspace (uma pasta acima desta ferramenta)
-const root = path.resolve(__dirname, '..');
-const out = path.join(__dirname, 'js_manifest.json');
+// Importa o módulo 'path', que ajuda a trabalhar com caminhos de arquivos e pastas
+const caminho = require('path');
 
-const results = [];
+// Define o caminho da pasta raiz do projeto (um nível acima da pasta atual)
+const raiz = caminho.resolve(__dirname, '..');
 
-function walk(dir) {
-  const items = fs.readdirSync(dir, { withFileTypes: true });
-  for (const it of items) {
-    const full = path.join(dir, it.name);
-    // ignorar a própria pasta tools de saída
-    if (full === out) continue;
-    if (it.isDirectory()) {
-      walk(full);
-    } else if (it.isFile() && full.endsWith('.js')) {
+// Define o local onde será salvo o arquivo de saída (manifesto em JSON)
+const saida = caminho.join(__dirname, 'manifesto_js.json');
+
+// Cria um array vazio para armazenar os resultados dos arquivos encontrados
+const resultados = [];
+
+// Função responsável por percorrer as pastas e arquivos de forma recursiva
+function percorrer(diretorio) {
+  // Lê todos os itens (arquivos e pastas) dentro do diretório atual
+  const itens = sistemaDeArquivos.readdirSync(diretorio, { withFileTypes: true });
+
+  // Faz um loop por cada item encontrado
+  for (const item of itens) {
+    // Cria o caminho completo do item (arquivo ou pasta)
+    const completo = caminho.join(diretorio, item.name);
+
+    // Ignora o arquivo de saída (para não ler o próprio manifesto)
+    if (completo === saida) continue;
+
+    // Se for uma pasta, chama novamente a função 'percorrer' (recursão)
+    if (item.isDirectory()) {
+      percorrer(completo);
+
+    // Se for um arquivo .js (JavaScript), processa o conteúdo
+    } else if (item.isFile() && completo.endsWith('.js')) {
       try {
-        const content = fs.readFileSync(full, 'utf8');
-        results.push({ path: full, size: content.length });
-      } catch (e) {
-        results.push({ path: full, error: String(e) });
+        // Lê o conteúdo do arquivo como texto (UTF-8)
+        const conteudo = sistemaDeArquivos.readFileSync(completo, 'utf8');
+
+        // Adiciona as informações do arquivo (caminho e tamanho) ao array de resultados
+        resultados.push({ caminho: completo, tamanho: conteudo.length });
+
+      // Caso ocorra um erro (por exemplo, falta de permissão), registra o erro
+      } catch (erro) {
+        resultados.push({ caminho: completo, erro: String(erro) });
       }
     }
   }
 }
 
-walk(root);
-fs.writeFileSync(out, JSON.stringify({ generatedAt: new Date().toISOString(), count: results.length, files: results }, null, 2));
-console.log('Manifest criado em', out, 'arquivos .js encontrados:', results.length);
+// Inicia a varredura a partir da pasta raiz do projeto
+percorrer(raiz);
+
+// Cria o arquivo manifesto em formato JSON com todos os dados coletados
+sistemaDeArquivos.writeFileSync(
+  saida,
+  JSON.stringify(
+    {
+      geradoEm: new Date().toISOString(), // Data e hora da geração
+      quantidade: resultados.length,       // Quantidade de arquivos encontrados
+      arquivos: resultados                 // Lista dos arquivos com detalhes
+    },
+    null, // Sem função de substituição
+    2     // Indentação de 2 espaços para deixar o JSON legível
+  )
+);
+
+// Exibe no console uma mensagem informando que o manifesto foi criado
+console.log(
+  'Manifesto criado em:',
+  saida,
+  'Arquivos .js encontrados:',
+  resultados.length
+);
