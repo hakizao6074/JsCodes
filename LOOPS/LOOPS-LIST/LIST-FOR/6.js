@@ -1,3 +1,7 @@
+/**
+ * @file 6.js
+ * @description Calcula x elevado a n (potenciação) usando um loop for.
+ */
 let x = parseInt(prompt("Digite o valor de x (base):"));
 let n = parseInt(prompt("Digite o valor de n (expoente):"));
 

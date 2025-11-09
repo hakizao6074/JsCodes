@@ -1,3 +1,7 @@
+/**
+ * @file function-1.js
+ * @description Exemplos simples de funções demonstrando operações e verificações.
+ */
 function parOuimpar() {
   let num = 4;
   if (num % 2 == 0) {

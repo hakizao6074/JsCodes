@@ -1,3 +1,7 @@
+/**
+ * @file Exercício_2–Calc.js
+ * @description Calculadora simples usando switch para escolher a operação.
+ */
 let N1 = Number(prompt("Digite um numero"));
 let N2 = Number(prompt("Digite outro numero"));
 let OP = Number(prompt(

@@ -1,3 +1,7 @@
+/**
+ * @file 1.js
+ * @description Recebe 10 números ímpares do usuário e exibe o vetor completo.
+ */
 let verificador = true; //cria uma variavel chamada verificador
 
 while(verificador){

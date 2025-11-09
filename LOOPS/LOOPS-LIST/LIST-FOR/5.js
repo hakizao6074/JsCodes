@@ -1,3 +1,7 @@
+/**
+ * @file 5.js
+ * @description Compara dois números e exibe os números inteiros entre eles.
+ */
 let num1 = parseInt(prompt("Coloque o primeiro número: "));
 let num2 = parseInt(prompt("Coloque o segundo número: "));
 

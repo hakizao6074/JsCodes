@@ -1,3 +1,7 @@
+/**
+ * @file desafioFOR.js
+ * @description Verifica se um número maior que 1 é primo usando for.
+ */
 let num = parseInt(prompt("digite um numero maior que 1"));
 
 while (num <= 1) {

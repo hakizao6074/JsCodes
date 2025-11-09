@@ -1,3 +1,7 @@
+/**
+ * @file 9.js
+ * @description Calcula o fatorial de um número inteiro informado usando while.
+ */
 let n = parseInt(prompt("Digite um número inteiro:"));
 let v = 1;
 

@@ -1,3 +1,7 @@
+/**
+ * @file array-4.js
+ * @description Mostra como acessar elementos individuais de um array.
+ */
 const frutas = ["maça", "banana", "laranja"];
 
 const primeiraFruta = frutas[0];

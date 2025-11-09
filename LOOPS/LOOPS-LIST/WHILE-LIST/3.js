@@ -1,3 +1,7 @@
+/**
+ * @file 3.js
+ * @description Mostra números pares ou ímpares até um valor informado pelo usuário.
+ */
 let num = parseInt(prompt("Escolha o seu número: "));
 let contador = 0;
 

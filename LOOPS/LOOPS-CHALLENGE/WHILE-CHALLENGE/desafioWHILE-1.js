@@ -1,3 +1,7 @@
+/**
+ * @file desafioWHILE-1.js
+ * @description Verifica se um número é primo usando um loop while.
+ */
 let num = parseInt(prompt("Escolha um número: "));
 let i = 0;
 

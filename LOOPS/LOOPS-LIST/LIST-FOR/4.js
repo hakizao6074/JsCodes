@@ -1,3 +1,7 @@
+/**
+ * @file 4.js
+ * @description Encontra e exibe os divisores de um número informado.
+ */
 let num = parseInt(prompt("Coloque um número inteiro: "));
 
 console.log(`Divisores de ${num}: `);

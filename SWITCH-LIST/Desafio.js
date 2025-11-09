@@ -1,3 +1,7 @@
+/**
+ * @file Desafio.js
+ * @description Menu de lanches usando switch; calcula total com base no código e quantidade.
+ */
 alert(`
 Cód | Produto=========|Preço (R$)==|
 100 | Cachorro Quente=|10,00=======|

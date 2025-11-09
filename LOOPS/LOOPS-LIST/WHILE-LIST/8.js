@@ -1,3 +1,7 @@
+/**
+ * @file 8.js
+ * @description Calcula a média de 5 notas repetidamente enquanto o usuário desejar.
+ */
 let quest = prompt("Deseja começar o cálculo da média? (S/N)");
 
 while (quest == "S" || quest == "s") {

@@ -1,3 +1,7 @@
+/**
+ * @file desafioWHILE-2.js
+ * @description Determina o tipo de triângulo a partir de três lados informados pelo usuário.
+ */
 let per = 0
 let com = Number(prompt("Digite 1 para começar"))
 if (com === 1) {

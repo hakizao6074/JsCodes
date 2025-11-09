@@ -1,3 +1,7 @@
+/**
+ * @file desafioWHILE-3.js
+ * @description Menu interativo com várias conversões e cálculo de IMC usando loop while e switch.
+ */
 let op = 0;
 
 while (op !== 6) {

@@ -1,3 +1,7 @@
+/**
+ * @file 3.js
+ * @description Encontra o maior número em um vetor de 10 posições e seu índice.
+ */
 // Cria um vetor com 10 posições
 let numeros = [];
 

@@ -1,3 +1,7 @@
+/**
+ * @file 6.js
+ * @description Exibe os números múltiplos de 3 entre 1 e 50.
+ */
 //Numeros multiplos de 3 entre 1 e 50
 
 //Inicia a variavel numero em 1

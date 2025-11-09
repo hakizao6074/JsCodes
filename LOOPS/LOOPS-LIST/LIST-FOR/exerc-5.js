@@ -1,3 +1,7 @@
+/**
+ * @file exerc-5.js
+ * @description Exibe os números entre dois valores em ordem decrescente, do maior ao menor.
+ */
 let N1 = parseInt(prompt("Digite o primeiro número"));
 let N2 = parseInt(prompt("Digite o segundo número"));
 

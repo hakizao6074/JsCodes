@@ -1,3 +1,7 @@
+/**
+ * @file 2.js
+ * @description Lê 10 números, soma-os e mostra o resultado.
+ */
 let n = [];
 let som = 0;
 let i = 0;

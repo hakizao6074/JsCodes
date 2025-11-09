@@ -1,3 +1,7 @@
+/**
+ * @file Exercício-1-Rua.js
+ * @description Exemplo de uso do switch para mapear números a nomes de ruas.
+ */
 let torre = Number(prompt("Digite o numero da torre (1-5): "))
 
 switch(torre) {

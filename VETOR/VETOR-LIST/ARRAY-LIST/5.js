@@ -1,3 +1,7 @@
+/**
+ * @file 5.js
+ * @description Lê 10 números e compara com um valor X, contando maiores, menores e iguais.
+ */
 let verificardor = true;
 
 while(verificardor){

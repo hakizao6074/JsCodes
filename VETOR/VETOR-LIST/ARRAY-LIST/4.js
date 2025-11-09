@@ -1,3 +1,7 @@
+/**
+ * @file 4.js
+ * @description Soma elemento a elemento de dois vetores A e B para gerar C.
+ */
 let A = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 let B = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log("antes da soma", A, B)

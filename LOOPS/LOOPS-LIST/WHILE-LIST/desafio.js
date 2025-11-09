@@ -1,3 +1,7 @@
+/**
+ * @file desafio.js
+ * @description Gera a sequência de Fibonacci e exibe os primeiros termos.
+ */
 let p1 = 0; //Numero 1 
 let p2 = 1; //Numero 2
 
