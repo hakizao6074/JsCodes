@@ -1,0 +1,198 @@
+{
+  "geradoEm": "2025-11-09T15:18:14.152Z",
+  "quantidade": 48,
+  "arquivos": [
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\basic\\array-1.js",
+      "tamanho": 242
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\basic\\array-2.js",
+      "tamanho": 167
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\basic\\array-3.js",
+      "tamanho": 181
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\basic\\array-4.js",
+      "tamanho": 339
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\basic\\array-5.js",
+      "tamanho": 261
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\length\\arrayLength-1.js",
+      "tamanho": 179
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\length\\arrayLength-2.js",
+      "tamanho": 191
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\pop\\arrayPOP.js",
+      "tamanho": 326
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\push\\arrayPush-1.js",
+      "tamanho": 261
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\push\\arrayPush-2.js",
+      "tamanho": 227
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\push\\arrayPush-3.js",
+      "tamanho": 232
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\shift\\arrayShift-1.js",
+      "tamanho": 341
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\shift\\arrayShift-2.js",
+      "tamanho": 228
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\unshift\\array-unshift-2.js",
+      "tamanho": 212
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\examples\\code-examples\\unshift\\arrayUnshift-1.js",
+      "tamanho": 268
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\lists\\ARRAY-LIST\\1.js",
+      "tamanho": 827
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\lists\\ARRAY-LIST\\2.js",
+      "tamanho": 362
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\lists\\ARRAY-LIST\\3.js",
+      "tamanho": 966
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\lists\\ARRAY-LIST\\4.js",
+      "tamanho": 406
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\arrays\\lists\\ARRAY-LIST\\5.js",
+      "tamanho": 1318
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\control-flow\\switch-examples\\Desafio.js",
+      "tamanho": 2295
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\control-flow\\switch-examples\\Exercício-1-Rua.js",
+      "tamanho": 821
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\control-flow\\switch-examples\\Exercício_2–Calc.js",
+      "tamanho": 883
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\functions\\function-1.js",
+      "tamanho": 1734
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\challenges\\FOR-CHALLENGE\\desafioFOR.js",
+      "tamanho": 532
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\challenges\\WHILE-CHALLENGE\\desafioWHILE-1.js",
+      "tamanho": 571
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\challenges\\WHILE-CHALLENGE\\desafioWHILE-2.js",
+      "tamanho": 923
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\challenges\\WHILE-CHALLENGE\\desafioWHILE-3.js",
+      "tamanho": 2357
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\1.js",
+      "tamanho": 154
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\2.js",
+      "tamanho": 161
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\3.js",
+      "tamanho": 272
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\4.js",
+      "tamanho": 309
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\5.js",
+      "tamanho": 810
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\6.js",
+      "tamanho": 460
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\Desafio.js",
+      "tamanho": 543
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\for-examples\\exerc-5.js",
+      "tamanho": 621
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\1.js",
+      "tamanho": 171
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\10.js",
+      "tamanho": 294
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\2.js",
+      "tamanho": 171
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\3.js",
+      "tamanho": 683
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\4.js",
+      "tamanho": 317
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\5.js",
+      "tamanho": 322
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\6.js",
+      "tamanho": 431
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\7.js",
+      "tamanho": 213
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\8.js",
+      "tamanho": 779
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\9.js",
+      "tamanho": 355
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\loops\\examples\\while-examples\\desafio.js",
+      "tamanho": 511
+    },
+    {
+      "caminho": "c:\\Users\\daviz\\OneDrive\\Desktop\\JsCodes\\tools\\process_all_js.js",
+      "tamanho": 2710
+    }
+  ]
+}
