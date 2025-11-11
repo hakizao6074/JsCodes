@@ -65,6 +65,30 @@ function todasFunction() {
     console.log("==========================")
 }
 
-todasFunction()
+
+
+
+  function somar(a, b) {
+  return a + b;
+}
+
+function subtrair(a, b) {
+  return a - b;
+}
+
+function multiplicar(a, b) {
+  return a * b;
+}
+
+function dividir(a, b) {
+  return b !== 0 ? a / b : "Erro: divisão por zero";
+}
+
+
+console.log(somar(5, 3));        
+console.log(subtrair(5, 3));     
+console.log(multiplicar(5, 3)); 
+console.log(dividir(5, 3));     
+
 
 
