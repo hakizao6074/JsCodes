@@ -2,7 +2,7 @@ async function carregarDados(passo) {
     
     const resultado = await new Promise((resolve) => {
         setTimeout(() => {
-            resolve(`carregamento ${passo} concluÃdo.`);
+            resolve(`carregamento ${passo} concluido.`);
         }, 1500);
     });
     console.log(resultado);
